@@ -1164,6 +1164,11 @@ button{ font-family: inherit; cursor: pointer; }
   padding: .55rem .85rem;
   font-size: .76rem;
 }
+.brand{ min-width: 0; flex: 1 1 auto; overflow: hidden; }
+  .brand-text{ min-width: 0; overflow: hidden; }
+  .brand-name{ font-size: 1.05rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .brand-tag{ display: none; }
+  .header-actions{ flex-shrink: 0; gap: .5rem; }
   .footer-grid{ grid-template-columns: 1fr; }
   .services-grid{ grid-template-columns: 1fr; }
   .gallery-grid{ grid-template-columns: 1fr 1fr; }
