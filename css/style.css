@@ -1164,11 +1164,21 @@ button{ font-family: inherit; cursor: pointer; }
   padding: .55rem .85rem;
   font-size: .76rem;
 }
-.brand{ min-width: 0; flex: 1 1 auto; overflow: hidden; }
+.brand{ min-width: 0; flex: 1 1 auto; overflow: hidden; gap: .5rem; }
+  .brand-logo{ width: 42px; height: 42px; }
   .brand-text{ min-width: 0; overflow: hidden; }
-  .brand-name{ font-size: 1.05rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .brand-name{
+    font-size: .92rem;
+    white-space: normal;
+    line-height: 1.15;
+    word-break: break-word;
+  }
   .brand-tag{ display: none; }
-  .header-actions{ flex-shrink: 0; gap: .5rem; }
+  .header-actions{ flex-shrink: 0; gap: .4rem; }
+  .header-actions .btn-primary{ padding: .5rem .7rem; font-size: .72rem; }
+  .theme-toggle{ width: 34px; height: 34px; }
+  .theme-toggle svg{ width: 15px; height: 15px; }
+  .nav-toggle{ width: 36px; height: 36px; }
   .footer-grid{ grid-template-columns: 1fr; }
   .services-grid{ grid-template-columns: 1fr; }
   .gallery-grid{ grid-template-columns: 1fr 1fr; }
